@@ -1,8 +1,9 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Spencer Clem
+email: clem.spencer@gmail.com
+phone: 704-451-1165
+url: https://sclem.github.io
+description: "Developer | Entrepreneur | Innovator"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -10,20 +11,43 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: sclem.github.io
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/spencer-clem-0035a67a
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/sclem
+
+projects:
+  - name: dotfiles
+    url: https://github.com/sclem/dotfiles
+    image: img/coffee.gif
+  - name: esp8266manager
+    url: https://github.com/sclem/esp8266manager
+    image: img/pi.png
+
+education:
+    university: North Carolina State University
+    degree: B.S. Computer Science
+    date: May 2015
+    details: Graduated Summa Cum Laude with a Minor in Business Administration. Completed courses from computer architecture and operating system design to web application development.
+
+work:
+  - company: Novetta
+    title: Software Engineer
+    date: September 2014 - Present
+    details: Designed, developed, and deployed a distributed architecture framework. Dealt with petabytes of live streaming data and video. Built several web applications using Sencha ExtJS, Go, and Apache Cassandra. Met unique customer requirements with minimal turnaround time. Helped promote an agile development process with jenkins, github PR CI, unit tests, basalmiq mockups, git, and nightly builds.
+  - company: IBM
+    title: Software Engineer Intern
+    date: May 2014 - September 2014
+    details: Worked in IBM's mainframe division on the z/OS architecture. Developed black box testing framework against the Communications Server for the TCP/IP stack and VTAM/SNA protocols. Wrote Java code in eclipse using SVN for version control.
+  - company: Prometheus Group
+    title: Software Engineer Intern
+    date: January 2014 - May 2014
+    details: Responsible for maintaining software and handling technical debugging and analysis of proprietary SAP and in-house web applications. Directly customer facing.
+
 
 # Build settings
 markdown: kramdown

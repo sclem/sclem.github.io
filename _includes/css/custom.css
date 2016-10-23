@@ -1,0 +1,20 @@
+#about .profile-pic {
+    positiion: relative;
+    max-width: 100%;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 35px;
+    border-radius: 100%;
+}
+#experience .job .date {
+    float: right;
+}
+#contact p {
+    margin-bottom: 20px;
+}
+#download .project-pic {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    max-width: 100%;
+}

@@ -1,0 +1,23 @@
+<!-- Download Section -->
+<section id="experience" class="content-section">
+    <div class="container">
+        <div class="col-lg-3 col-lg-offset-2">
+            <h2>Education</h2>
+        </div>
+        <div class="col-lg-7">
+            <h3>{{ site.education.university }}</h3>
+            <h5><em>{{ site.education.degree }}</em>, {{ site.education.date }}</h5>
+            <p>{{ site.education.details }}</p>
+        </div>
+        <div class="col-lg-3 col-lg-offset-2">
+            <h2>Work Experience</h2>
+        </div>
+        <div class="col-lg-7 job">
+            {% for job in site.work %}
+            <h3>{{ job.company }}</h3>
+            <h5><em>{{ job.title }}</em><span class="date">{{ job.date }}</span></h5>
+            <p>{{ job.details }}</p>
+            {% endfor %}
+        </div>
+    </div>
+</section>
