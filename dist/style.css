@@ -143,6 +143,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;		
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -389,5 +390,8 @@ body {
     height: 120px;
     position: relative;
     max-width: 100%;
+}
+#download .list-inline li {
+    margin-bottom: 10px;
 }
 
