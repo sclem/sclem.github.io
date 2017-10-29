@@ -27,6 +27,12 @@ projects:
   - name: esp8266manager
     url: https://github.com/sclem/esp8266manager
     image: img/pi.png
+  - name: commander
+    url: https://github.com/sclem/commander
+    image: img/c.png
+  - name: pfcrypto
+    url: https://github.com/sclem/pfcrypto
+    image: img/bitcoin.png
 
 education:
     university: North Carolina State University
