@@ -33,6 +33,9 @@ projects:
   - name: pfcrypto
     url: https://github.com/sclem/pfcrypto
     image: img/bitcoin.png
+  - name: pctransactionfixer
+    url: https://github.com/sclem/pctransactionfixer
+    image: img/accounting.png
 
 education:
     university: North Carolina State University
